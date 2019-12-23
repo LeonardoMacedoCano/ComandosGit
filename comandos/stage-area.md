@@ -1,6 +1,6 @@
 ## Trabalhando com arquivos na Área de preparação(stage area)
 
-**1 Visualizando a última alteração feita**
+**1. Visualizando a última alteração feita**
 ```bash
 git diff // no diretório de trabalho (compara Work Directory com Staging Area)
 
@@ -15,12 +15,12 @@ git diff -w // Visualiza alterações ignorando espaços
 git show hash-commit // Visuliza todas as modificações feitas no respectivo commit
 ```
 
-**2 Revertendo alterações feitas em arquivos** (Arquivos que estão na área de trabalho)
+**2. Revertendo alterações feitas em arquivos** (Arquivos que estão na área de trabalho)
 ```bash
 git checkout -- nome-do-arquivo.extensao
 ```
 
-**3 Removendo aquivos da stage area**
+**3. Removendo aquivos da stage area**
 ```bash
 git reset HEAD nome-do-aquivo.extensao
 ```
