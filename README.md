@@ -2,7 +2,7 @@
     <img width="200" height="200" src="img/git-logo.png"/>
 </p>
 
-## Git
+# Git
 
 ### O que è?
 1. [Introdução](introducao.md)
