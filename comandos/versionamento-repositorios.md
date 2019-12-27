@@ -12,7 +12,7 @@ git init
 
 **3. Criando arquivos através do terminal**
 ```bash
-fsutil file createnew nome-aquivo.extensao 0
+touch nome-aquivo.extensao
 ```
 
 **4. Listar os arquivos e pastas no diretório**

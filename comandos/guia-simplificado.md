@@ -60,6 +60,11 @@ git push origin <branch>
 git pull origin <branch>
 ```
 
+##### Limpando a tela
+```bash
+clear
+```
+
 ### 4 Trabalhando com branchs
 
 
