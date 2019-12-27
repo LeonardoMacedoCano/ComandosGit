@@ -15,20 +15,22 @@ git init
 touch nome-aquivo.extensao
 ```
 
-**4. Listar os arquivos e pastas no diretório**
+**4. Listar diretórios**
 ```bash
-dir
+ls
 ```
 
-**5. Verificar Status do repositorio**
+**5. Listar o controle de diretório**
+```bash
+ls -a 
+```
+
+**6. listar todos os diretorios(inclusive os ocultos)**
+```bash
+ls -la
+```
+
+**7. Verificar Status do repositorio**
 ```bash
 git status
-```
-
-**6. Separando arquivos para não serem versionados**
-```bash
-psds/ (diretório)
-alteracoes.php
-anotacoes.txt
-*.orig. // arquivos gerados pela merge toll
 ```
