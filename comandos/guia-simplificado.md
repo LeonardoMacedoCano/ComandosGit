@@ -88,3 +88,18 @@ git branch -D nome-branch
 git push origin :nome-branch
 ```
 
+
+### Ajuda
+
+
+##### Geral
+````bash
+ git help
+````
+
+##### Comando específico
+````bash
+ git help qualquer-comando-git
+ git help add       // Exemplo
+ git help commit    // Exemplo
+````
